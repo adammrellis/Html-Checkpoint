@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+ul {
+    border: 1px solid black;
+    list-style: none;
+    flex: 1;
+}
+table {
+    border: 1px solid black;
+}
+.gray-row {
+    background-color: gray;
+}
+.light-gray-row {
+    background-color: lightgray;
+}
+td, th {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
